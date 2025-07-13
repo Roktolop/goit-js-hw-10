@@ -16,10 +16,10 @@ const options = {
     defaultDate: new Date(),
     minuteIncrement: 1,
     onClose(selectedDates) {
-        console.log(selectedDates[0]);
         const selectedDate = selectedDates[0];
-        userSelectedDate = selectedDate;
         const currentDate = new Date();
+
+        userSelectedDate = selectedDate;
         console.log("Обрана дата:", userSelectedDate);
 
 
